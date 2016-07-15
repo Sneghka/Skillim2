@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1200px) {
+    .skill_last-seen__container div.skill_course-block--mini,
+    .skill_last-seen__container div.skill_last-seen__course-description {
+        width: 30%;
+        padding-bottom: 15px;
+        margin-right: 5%;
+    }
+    .skill_last-seen__container .skill_course-block--mini:nth-child(3) {
+        margin-right: 0;
+    }
+    .skill_last-seen__container {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+        .skill_last-seen__container div.skill_course-block--mini,
+    .skill_last-seen__container div.skill_last-seen__course-description {
+        width: 48%;
+        padding-bottom: 15px;
+        margin-right: 4%;
+    }
+    div.skill_last-seen__container > div:nth-child(even) {
+        margin-right: 0;
+    }
+    .skill_last-seen__row div.skill_last-seen__container > div:nth-child(odd) {
+        margin-right: 4%;
+    }
+    .skill_last-seen__container, .skill_last-seen__header{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skill_last-seen__container div.skill_course-block--mini,
+    .skill_last-seen__container div.skill_last-seen__course-description {
+        width: 70%;
+        padding-bottom: 15px;
+        margin: 0 15%;
+    }
+    
+}

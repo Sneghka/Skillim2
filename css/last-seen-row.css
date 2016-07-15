@@ -13,7 +13,7 @@
     width: 100%;
     display: table;
     height: 54px;
-    padding: 0 18px;
+    padding: 0 58px;
     font-family: GloberBoldFree;
     font-size: 18px;
     color: #898989;
@@ -42,20 +42,43 @@
 
 .skill_last-seen__container {
     width: 100%;
-    padding: 15px 18px;
-    font-size: 0
+    padding: 15px 58px;
+    font-size: 0;
+   /* display: flex;
+    justify-content: space-between;*/
+}
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }
 
-.skill_last-seen__container .skill_course-block--mini:not(:last-child) {
-    margin-right: 35px
+.skill_course-block--mini:not(:last-child) {
+    margin-right: 2.5%;
 }
+
 
 .skill_last-seen__course-description {
-    margin-right: 35px;
+    width: 18%;
+    margin-right:2.5%;
     display: inline-block;
     vertical-align: middle;
     font-family: GloberThinFree;
-    font-size: 18px
+    font-size: 18px;
+    float: left;
+    position: relative;        
+}
+.skill_last-seen__course-description img{
+    position: relative;
+   width: 100%;    
+}
+.descrition-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .skill_last-seen__progress {
@@ -68,7 +91,7 @@
     text-align: center;
     border-radius: 4px;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .skill_last-seen__progress--full {
@@ -78,7 +101,7 @@
     top: 0;
     left: 0;
     z-index: 0;
-    background: #6db40d
+    background: #6db40d;
 }
 
 .skill_last-seen__progress--number {
@@ -91,14 +114,6 @@
     line-height: 21px;
     z-index: 100000;
     left: 0;
-    margin: auto
+    margin: auto;
 }
 
-@media (max-width: 1110px) {
-    .skill_last-seen__container {
-        text-align: justify
-    }
-    .skill_last-seen__course-description {
-        margin-bottom: 20px
-    }
-}

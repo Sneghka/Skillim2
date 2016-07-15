@@ -1,0 +1,42 @@
+.registration-panel {
+    background: #343c3f;
+    font-family: GloberThinFree;
+    font-size: 18px;
+    color: white;
+}
+
+.form-wrapper {
+    width: 50%;
+    margin: 0 auto 35px;
+    padding: 35px 0;
+     text-align: center;
+}
+.form-wrapper div:first-child {
+    margin-bottom: 10px;
+}
+.form-wrapper div:nth-child(2) {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.form-wrapper span {
+    color: #abdc68;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.form-control {
+    width: 40%;
+    /* margin: 0 auto;*/
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 8px 12px 6px 12px;
+    font-family: GloberBoldFree;
+    background-color: #6db40d;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 100%;
+}

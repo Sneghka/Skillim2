@@ -1,398 +1,436 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width" />
-<title>Skill</title>
-<link href="css/styles.css"  rel="stylesheet" type="text/css" />
-<link href="css/main.css"  rel="stylesheet" type="text/css" />
-<link href="css/stars.css"  rel="stylesheet" type="text/css" />
-<link href="css/header.css"  rel="stylesheet" type="text/css" />
-<link href="css/footer.css"  rel="stylesheet" type="text/css" />
-<link href="css/course-block-mini.css"  rel="stylesheet" type="text/css" />
-<link href="css/last-seen-row.css"  rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Skill</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/stars.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/course-block-mini.css" rel="stylesheet" />
+    <link href="css/last-seen-row.css" rel="stylesheet" />
+     <link href="css/registration-panel.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
+
 <body>
-  <header class="skill_header">
-    <div class="skill_header__logo"></div>
-    <nav class="skill_header__menu">
-      <a href="#" class="skill_header__menu-item active">
-        <div class="skill_header__menu-item--text">
-          Курсы
-        </div>
-      </a>
-      <a href="#" class="skill_header__menu-item">
-        <div class="skill_header__menu-item--text">
-          О компании
-        </div>
-      </a>
-      <a href="#" class="skill_header__menu-item">
-        <div class="skill_header__menu-item--text">
-          Контакты
-        </div>
-      </a>
-    </nav>
-    <div class="skill_header__log-btns">
-      <a href="#" class="skill_header__log-in">
+    <header class="skill_header">
+        <div class="skill_header__logo"></div>
+        <nav class="skill_header__menu">
+            <a href="#" class="skill_header__menu-item active">
+                <div class="skill_header__menu-item--text">
+                    Курсы
+                </div>
+            </a>
+            <a href="#" class="skill_header__menu-item">
+                <div class="skill_header__menu-item--text">
+                    О компании
+                </div>
+            </a>
+            <a href="#" class="skill_header__menu-item">
+                <div class="skill_header__menu-item--text">
+                    Контакты
+                </div>
+            </a>
+        </nav>
+        <div class="skill_header__log-btns">
+            <a href="#" class="skill_header__log-in">
         Войти
       </a>
-      <button class="skill_header__sign-up" type="button" name="button">
-          Зарегистрироваться
-      </button>
-    </div>
-  </header>
-  <div class="skill_container">
-    <div class="skill_last-seen">
-      <div class="skill_last-seen__row">
-        <div class="skill_last-seen__header">
-          <div class="skill_last-seen__header-wrapper">
-            <p class="skill_last-seen__header--txt-left">Ваши последние просматриваемые курсы</p>
-            <a href = "#" class="skill_last-seen__header--txt-right">Все приобретенные курсы</a>
-          </div>
+            <button class="skill_header__sign-up" type="button" name="button">
+                Зарегистрироваться
+            </button>
         </div>
-        <div class="skill_last-seen__container">
-          <div class="skill_course-block--mini">
-            <img class="skill_course-block--mini__icon" src="images/word-miniature-site.png" alt="">
-          </div>
-          <div class="skill_last-seen__course-description">
-            <p>MS Word 2016</p>
-            <p>Продвинутый курс</p>
-            <div class="skill_last-seen__progress">
-                <div class="skill_last-seen__progress--full"></div>
-                <div class="skill_last-seen__progress--number">
-                  50%
-                </div>
-            </div>
-          </div>
-          <div class="skill_course-block--mini">
-            <img class="skill_course-block--mini__icon" src="images/pp-miniature-site-2.png" alt="">
-          </div>
-          <div class="skill_course-block--mini">
-            <img class="skill_course-block--mini__icon" src="images/word-miniature-adv.png" alt="">
-          </div>
-          <div class="skill_course-block--mini">
-            <img class="skill_course-block--mini__icon" src="images/pp-miniature-2.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="skill_courses-wrapper">
-      <li class="skill_course-wrapper">
-        <div class="course-block">
-          <div class="course-block_header course-block_header-word">
-            <div class="course-block_header-word__logo"></div>
-            <div class="course-block_header__text">Word</div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--ww">
-                  <p>
-                    б
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Базовый курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">3:58</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:80%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(10000)</div>
-
-              </div>
-              <div class="free-btn">
-                Бесплатно
-              </div>
-            </div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--ww">
-                  <p>
-                    б
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Продвинутый курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">2:15</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:60%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(2486)</div>
-
-              </div>
-              <div class="price">800 руб.</div>
-            </div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--ww">
-                  <p>
-                    O
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Очень интересный курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">3:02</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:100%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(35)</div>
-
-              </div>
-              <div class="price">1200 руб.</div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li class="skill_course-wrapper">
-        <div class="course-block">
-          <div class="course-block_header course-block_header-exel">
-            <div class="course-block_header-exel__logo"></div>
-            <div class="course-block_header__text">Exel</div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--exel">
-                  <p>
-                    б
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Базовый курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">3:58</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:80%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(10000)</div>
-
-              </div>
-              <div class="free-btn">
-                Бесплатно
-              </div>
-            </div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--exel">
-                  <p>
-                    б
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Продвинутый курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">2:15</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:60%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(2486)</div>
-
-              </div>
-              <div class="price">800 руб.</div>
-            </div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--exel">
-                  <p>
-                    O
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Очень интересный курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">3:02</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:100%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(35)</div>
-
-              </div>
-              <div class="price">1200 руб.</div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li class="skill_course-wrapper">
-        <div class="course-block">
-          <div class="course-block_header course-block_header-pp">
-            <div class="course-block_header-pp__logo"></div>
-            <div class="course-block_header__text">Power Point</div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--pp">
-                  <p>
-                    б
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Базовый курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">3:58</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:80%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(10000)</div>
-
-              </div>
-              <div class="free-btn">
-                Бесплатно
-              </div>
-            </div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--pp">
-                  <p>
-                    б
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Продвинутый курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">2:15</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:60%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(2486)</div>
-
-              </div>
-              <div class="price">800 руб.</div>
-            </div>
-          </div>
-          <div class="course-block_row">
-            <div class="course-block_row__container">
-              <div class="course-block_row-main">
-                <div class="course-block_row-main__level-circle--pp">
-                  <p>
-                    O
-                  </p>
-                </div>
-                <div class="course-block_row-main__text">
-                  <p>Очень интересный курс</p>
-                  <i class="fa fa-clock-o clock" aria-hidden="true"></i> <div class="time">3:02</div>
-                </div>
-              </div>
-              <div class="rate">
-                <div class="rate-stars">
-                  <div class="rate-stars--empty">
-
-                  </div>
-                  <div class="rate-stars--full" style="width:100%">
-
-                  </div>
-                </div>
-                <div class="rate-count">(35)</div>
-
-              </div>
-              <div class="price">1200 руб.</div>
-            </div>
-          </div>
-        </div>
-      </li>
-    </div>
-</div>
-  <footer class="skill_footer">
+    </header>
     <div class="skill_container">
-      <div class="skill_footer__wrapper">
-          <div class="skill_footer__inf">
-            <div class="skill_footer__logo"></div>
-            <div class="skill_footer__copyright">
-              © 2014 Skill.im Все права защищены.
+        <div class="registration-panel">
+           <div class="form-wrapper">
+            <div><span>Добро пожаловать!</span></div>
+            <div>Для просмотра курсов, пожалуйста зарегистрируйтесь.</div>
+            <form action="" class="form-horizontal">
+                <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">Имя</label>
+                    <input type="text" class="form-control" id="name" placeholder="введите пожалуйста имя">
+                </div>
+                  <div class="form-group">
+                    <label for="email"  class="col-sm-2 control-label">Имя</label>
+                    <input type="email" class="form-control" id="email" placeholder="ваш Email">
+                </div>
+                 <div class="form-group">
+                    <label for="password"  class="col-sm-2 control-label">Имя</label>
+                    <input type="password" class="form-control" id="password" placeholder="введите пожалуйста пароль">
+                </div>
+                <button type="submit" class="btn">Зарегистрироваться</button>
+            </form>
             </div>
-          </div>
-          <div class="skill_footer__contacts">
-            <div class="skill_footer__contact">
-              <img src="images/skype.png" alt="" class="skill_footer__contact--icon">
-              skype
-            </div>
-            <div class="skill_footer__contact">
-              <img src="images/email.png" alt="" class="skill_footer__contact--icon">
-              email@gmail.com
-            </div>
-            <div class="skill_footer__contact">
-              <img src="images/phone.png" alt="" class="skill_footer__contact--icon">
-              0935157971
-            </div>
-            <div class="skill_footer__contact">
-              <img src="images/youtube.png" alt="" class="skill_footer__contact--icon">
-            </div>
-          </div>
-          <div class="skill_footer__navigate">
-            <div class="skill_footer__top-arrow"></div>
-          </div>
         </div>
-      </div>
-  </footer>
+        <div class="skill_last-seen">
+            <div class="skill_last-seen__row">
+                <div class="skill_last-seen__header">
+                    <div class="skill_last-seen__header-wrapper">
+                        <p class="skill_last-seen__header--txt-left">Ваши последние просматриваемые курсы</p>
+                        <a href="#" class="skill_last-seen__header--txt-right">Все приобретенные курсы</a>
+                    </div>
+                </div>
+                <div class="skill_last-seen__container clearfix">
+                    <div class="skill_course-block--mini">
+                        <img class="skill_course-block--mini__icon" src="images/word-miniature-site.png" alt="">
+                    </div>
+                    <div class="skill_last-seen__course-description">
+                        <img src="images/course-description.png" alt="">
+                        <div class="descrition-text">
+                            <p>MS Word 2016</p>
+                            <p>Продвинутый курс</p>
+                            <div class="skill_last-seen__progress">
+                                <div class="skill_last-seen__progress--full"></div>
+                                <div class="skill_last-seen__progress--number">
+                                    50%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill_course-block--mini">
+                        <img class="skill_course-block--mini__icon" src="images/pp-miniature-site-2.png" alt="">
+                    </div>
+                    <div class="skill_course-block--mini">
+                        <img class="skill_course-block--mini__icon" src="images/word-miniature-adv.png" alt="">
+                    </div>
+                    <div class="skill_course-block--mini">
+                        <img class="skill_course-block--mini__icon" src="images/pp-miniature-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill_courses-wrapper">
+            <li class="skill_course-wrapper">
+                <div class="course-block">
+                    <div class="course-block_header course-block_header-word">
+                        <div class="course-block_header-word__logo"></div>
+                        <div class="course-block_header__text">Word</div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--ww">
+                                    <p>
+                                        б
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Базовый курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">3:58</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:80%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(10000)</div>
+
+                            </div>
+                            <div class="free-btn">
+                                Бесплатно
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--ww">
+                                    <p>
+                                        б
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Продвинутый курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">2:15</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:60%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(2486)</div>
+
+                            </div>
+                            <div class="price">800 руб.</div>
+                        </div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--ww">
+                                    <p>
+                                        O
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Очень интересный курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">3:02</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:100%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(35)</div>
+
+                            </div>
+                            <div class="price">1200 руб.</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="skill_course-wrapper">
+                <div class="course-block">
+                    <div class="course-block_header course-block_header-exel">
+                        <div class="course-block_header-exel__logo"></div>
+                        <div class="course-block_header__text">Exel</div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--exel">
+                                    <p>
+                                        б
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Базовый курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">3:58</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:80%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(10000)</div>
+
+                            </div>
+                            <div class="free-btn">
+                                Бесплатно
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--exel">
+                                    <p>
+                                        б
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Продвинутый курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">2:15</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:60%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(2486)</div>
+
+                            </div>
+                            <div class="price">800 руб.</div>
+                        </div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--exel">
+                                    <p>
+                                        O
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Очень интересный курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">3:02</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:100%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(35)</div>
+
+                            </div>
+                            <div class="price">1200 руб.</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="skill_course-wrapper">
+                <div class="course-block">
+                    <div class="course-block_header course-block_header-pp">
+                        <div class="course-block_header-pp__logo"></div>
+                        <div class="course-block_header__text">Power Point</div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--pp">
+                                    <p>
+                                        б
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Базовый курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">3:58</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:80%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(10000)</div>
+
+                            </div>
+                            <div class="free-btn">
+                                Бесплатно
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--pp">
+                                    <p>
+                                        б
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Продвинутый курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">2:15</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:60%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(2486)</div>
+
+                            </div>
+                            <div class="price">800 руб.</div>
+                        </div>
+                    </div>
+                    <div class="course-block_row">
+                        <div class="course-block_row__container">
+                            <div class="course-block_row-main">
+                                <div class="course-block_row-main__level-circle--pp">
+                                    <p>
+                                        O
+                                    </p>
+                                </div>
+                                <div class="course-block_row-main__text">
+                                    <p>Очень интересный курс</p>
+                                    <i class="fa fa-clock-o clock" aria-hidden="true"></i>
+                                    <div class="time">3:02</div>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <div class="rate-stars">
+                                    <div class="rate-stars--empty">
+
+                                    </div>
+                                    <div class="rate-stars--full" style="width:100%">
+
+                                    </div>
+                                </div>
+                                <div class="rate-count">(35)</div>
+
+                            </div>
+                            <div class="price">1200 руб.</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </div>
+    </div>
+    <footer class="skill_footer">
+        <div class="skill_container">
+            <div class="skill_footer__wrapper">
+                <div class="skill_footer__inf">
+                    <div class="skill_footer__logo"></div>
+                    <div class="skill_footer__copyright">
+                        © 2014 Skill.im Все права защищены.
+                    </div>
+                </div>
+                <div class="skill_footer__contacts">
+                    <div class="skill_footer__contact">
+                        <img src="images/skype.png" alt="" class="skill_footer__contact--icon"> skype
+                    </div>
+                    <div class="skill_footer__contact">
+                        <img src="images/email.png" alt="" class="skill_footer__contact--icon"> email@gmail.com
+                    </div>
+                    <div class="skill_footer__contact">
+                        <img src="images/phone.png" alt="" class="skill_footer__contact--icon"> 0935157971
+                    </div>
+                    <div class="skill_footer__contact">
+                        <img src="images/youtube.png" alt="" class="skill_footer__contact--icon">
+                    </div>
+                </div>
+                <div class="skill_footer__navigate">
+                    <div class="skill_footer__top-arrow"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>

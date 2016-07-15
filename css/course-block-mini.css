@@ -1,18 +1,14 @@
 .skill_course-block--mini {
     position: relative;
-    width: 191px;
+    width: 18%;
     height: auto;
     display: inline-block;
-    vertical-align: middle
+    vertical-align: middle;
+        float: left;
 }
 
 .skill_course-block--mini__icon {
     width: 100%;
-    display: block
+    display: block;
 }
 
-@media (max-width: 1110px) {
-    .skill_course-block--mini {
-        margin-bottom: 20px
-    }
-}
