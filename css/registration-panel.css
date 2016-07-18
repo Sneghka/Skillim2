@@ -3,33 +3,62 @@
     font-family: GloberThinFree;
     font-size: 18px;
     color: white;
+    display: none;
 }
 
 .form-wrapper {
-    width: 50%;
+    width: 100%;
     margin: 0 auto 35px;
-    padding: 35px 0;
+    padding: 35px 0 0;
      text-align: center;
 }
-.form-wrapper div:first-child {
-    margin-bottom: 10px;
+.form-wrapper div:first-child{
+     margin-bottom: 20px;
 }
 .form-wrapper div:nth-child(2) {
     font-size: 16px;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    color: #c9cbcc;
+    margin-bottom: 35px;
 }
 .form-wrapper span {
     color: #abdc68;
     text-transform: uppercase;
     font-weight: 900;
 }
-
-.form-control {
-    width: 40%;
-    /* margin: 0 auto;*/
+.form-wrapper form {
+    width: 70%;
+    display: inline-block;
 }
-
+.form-group {
+    padding-left: 25%;
+    padding-right: 20%;
+    margin-bottom: 35px;
+}
+.form-group label {
+    color: #898989;
+    margin-right: 15px;
+}
+.form-group input {
+    background: #343c3f;
+    border-color: #525354;   
+}
+.form-group i {
+    color: #beccaa;
+    font-size: 28px;
+    margin-left: 7%;
+    line-height: 39px;
+   vertical-align: middle;
+    
+}
+.form-control {
+    width: 70%;  
+}
+.form-horizontal .form-group:last-child {
+    padding-left: 24%;
+    text-align: left;
+    margin-bottom: 20px;
+}
 .btn {
     margin-left: 10px;
     padding: 8px 12px 6px 12px;
